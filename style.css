@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     color:#FFF;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -9,11 +10,11 @@ body {
   align-items: center;
   margin: 0;
   background-color: #d2b1e2;
-  background-image: url('photos/cactus1.png'); /* Make sure the path is correct */
+  background-image: url('photos/cactus1.png');
   background-size: cover;
   background-position: center bottom;
   background-repeat: no-repeat;
-  height: 100vh; /* Full viewport height */
+  height: 100vh;
   width: 100%;
 }
 
@@ -58,7 +59,7 @@ button {
 }
 
 #photo-w-contact{
-  background-color: rgba(112, 109, 112, 0.5);
+  background-color: rgba(112, 109, 112, 0.9);
   display:flex;
   flex-direction: column;
   float: left;
@@ -117,7 +118,7 @@ button {
 }
 
 #about-and-do {
-  background-color: rgba(112, 109, 112, 0.5);
+  background-color: rgba(112, 109, 112, 0.9);
   box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 10px;
   padding: 40px;
@@ -135,11 +136,11 @@ h3 {
 @media screen and (max-width: 1300px) {
 body {
   background-color: #d2b1e2;
-  background-image: url('photos/cactus1.png'); /* Make sure the path is correct */
+  background-image: url('photos/cactus1.png');
   background-size: cover;
   background-position: center bottom;
   background-repeat: no-repeat;
-  height: 100vh; /* Full viewport height */
+  height: 100vh;
   width: 100%;
 }
 }
