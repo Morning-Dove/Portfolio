@@ -3,33 +3,26 @@
     color:#FFF;
 }
 
-html {
-    background-repeat: no-repeat;
-    height: 100%;
-    width: 100%;
-    background-color: #d2b1e2;
-    background-image: url(photos/cactus1.png);
-    background-size: cover;
-    background-position: center bottom;
-    background-repeat: no-repeat;
-}
-
 body {
-  width: 100%;
-  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0;
+  background-color: #d2b1e2;
+  background-image: url('photos/cactus1.png'); /* Make sure the path is correct */
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  height: 100vh; /* Full viewport height */
+  width: 100%;
 }
 
 main {
-  margin-top: 3vh;
   padding: 0px 40px 0px 40px;
   display: flex;
   flex-direction: row;
   border-radius: 10px;
-  height: auto;
-  width: 100%;
+  max-width: 100%;
   justify-content: center;
   align-items: center;
 }
@@ -96,7 +89,7 @@ button {
   justify-content:flex-end;
 }
 
-#web-dev-button{
+#gitHub{
   border: none;
   padding: 10px;
   border-radius: 5px;
@@ -138,3 +131,15 @@ h3 {
   font-size: 22px;
 }
 
+
+@media screen and (max-width: 1300px) {
+body {
+  background-color: #d2b1e2;
+  background-image: url('photos/cactus1.png'); /* Make sure the path is correct */
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  height: 100vh; /* Full viewport height */
+  width: 100%;
+}
+}
